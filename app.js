@@ -14,7 +14,7 @@ app.set('view engine', 'ejs');
 
 app.get ('/', (req,res) => res.render('index'));
 
-app.post('/pay', (req,res) => {
+app.post('https://viktorsj.github.io/pay', (req,res) => {
 
     const create_payment_json = {
         "intent": "sale",
